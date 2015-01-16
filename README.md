@@ -1,10 +1,11 @@
 ng-equalize-height
 ==============
 
-A directive that allows to make sure that chosen elements are of the same height.
-Elements that need to have the same height do not need to be siblings.
-Directive recalculates heights when browser is resized.
-There is also an option to force resize calculation via service call: `equalizeHeightService.equalizeHeights();`
+* A directive that allows to make sure that chosen elements are of the same height.
+* Elements that need to have the same height do not need to be siblings.
+* Directive recalculates heights when browser is resized.
+* There is also an option to force resize calculation via service call: `equalizeHeightService.equalizeHeights();`
+* No dependency on JQuery
 
 Example
 -------------
