@@ -7,6 +7,13 @@ ng-equalize-height
 * There is also an option to force resize calculation via service call: `equalizeHeightService.equalizeHeights();`
 * No dependency on JQuery
 
+Installation:
+-------------
+*Reference module in your app*
+```
+angular.module('app', ['de.equalizeHeight']);
+```
+
 Example
 -------------
 In the following example:
