@@ -1,3 +1,10 @@
+'use strict';
+
+/*
+  * Source: https://github.com/DmitryEfimenko/ng-equalize-height
+  * 
+*/
+
 angular.module('de.equalizeHeight')
     .service('equalizeHeightService', ['$rootScope', function($rootScope) {
         this.equalizeHeights = function () {
