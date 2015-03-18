@@ -5,7 +5,7 @@
   * 
 */
 
-angular.module('de.equalizeHeight')
+angular.module('de.equalizeHeight', [])
     .service('equalizeHeightService', ['$rootScope', function($rootScope) {
         this.equalizeHeights = function () {
             $rootScope.$broadcast('equalizeHeights');
